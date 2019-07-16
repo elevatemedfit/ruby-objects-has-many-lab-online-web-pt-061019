@@ -20,7 +20,7 @@ end
     post = Post.new(name)
     @posts << post
     post.author = self
-
+    @@post_count += 1
   end
 
 
